@@ -1,0 +1,8 @@
+在本地demo目录创建一个branch.txt以分支提交。
+
+git branch #显示当前分支是master
+git branch new_bra  #创建分支命名为new_bra
+git checkout new_bra  #切换到新分支
+git add branch.txt
+git commit -m "added branch.txt"
+git push readme_test new_bra  ##把分支提交到远程服务器，只是把分支结构和内容提交到远程，并没有发生和主干的合并行为。
